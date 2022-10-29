@@ -4,18 +4,18 @@ int main()
     int data[10],i,n,j,temp;
 
     //taking the size of array
-    printf("How many elements you want to add : \n");
+    printf("How many elements you want to add : \n\n");
     scanf("%d", &n);
 
     //taking input in array
-    printf("Enter the elements : \n");
+    printf("\nEnter the elements : \n");
     for(i=0; i<n; i++)
     {
         scanf("%d", &data[i]);
     }
 
     //showing the inputed data
-    printf("The given data are : \n");
+    printf("\nThe given data are : \n");
     for(i=0; i<n; i++)
     {
         printf("%d\t",data[i]);
@@ -37,7 +37,7 @@ int main()
     }
 
     //showing the sorted data
-    printf("\nThe Sorted Data are : \n");
+    printf("\n\nThe Sorted Data are : \n\n");
     for(i=0; i<n; i++)
     {
         printf("%d\t",data[i]);
@@ -47,7 +47,7 @@ int main()
 
     while(i!=1)
     {
-    printf("\nEnter the elemets you want to find : \n");
+    printf("\n\nEnter the elements you want to find : \n\n");
     scanf("%d", &item);
 
     //initializing input for beg and end
