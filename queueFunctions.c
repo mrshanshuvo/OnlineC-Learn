@@ -12,7 +12,7 @@ int queue[MAX];
 int rear = - 1;
 int front = - 1;
 
-main()
+int main()
 {
     int choice;
     while (4)
@@ -38,7 +38,7 @@ main()
         }
     }
 }
- 
+
 void insert()
 {
     int add;
@@ -55,7 +55,7 @@ void insert()
         queue[rear] = add;
     }
 }
- 
+
 void delete()
 {
     if (front == - 1 || front > rear)
@@ -69,7 +69,7 @@ void delete()
         front = front + 1;
     }
 }
- 
+
 void display()
 {
     int i;
