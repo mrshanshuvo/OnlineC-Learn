@@ -1,4 +1,12 @@
 #include<stdio.h>
+
+// function declaration
+void div();
+void mul();
+void sub();
+void sum();
+
+// function defination
 void div()
 {
     int a,b,div=1;
@@ -7,6 +15,8 @@ void div()
     div = a/b;
     printf("\nDivision: %d",div);
 }
+
+// function defination
 void mul()
 {
     int a,b,mul=1;
@@ -15,6 +25,8 @@ void mul()
     mul = a*b;
     printf("\nMultiplication: %d",mul);
 }
+
+// function defination
 void sub()
 {
     int a,b,sub=0;
@@ -23,6 +35,8 @@ void sub()
     sub = a-b;
     printf("\nSub: %d", sub);
 }
+
+// function defination
 void sum()
 {
     int a,b,sum=0;
@@ -31,13 +45,19 @@ void sum()
     sum = a+b;
     printf("\nSum: %d", sum);
 }
+
 void main()
 {
+
+    // function calling
     sum();
     sub();
     mul();
     div();
+
     printf("\nAGAIN DO THIS CALCULATION: ");
+
+    // function calling
     sum();
     sub();
     mul();
