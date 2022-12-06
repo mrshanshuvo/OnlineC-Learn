@@ -1,10 +1,10 @@
 #include<stdio.h>
 
 // function declaration
-void div();
-void mul();
-void sub();
-void sum();
+void div(void);
+void mul(void);
+void sub(void);
+void sum(void);
 
 // function defination
 void div()

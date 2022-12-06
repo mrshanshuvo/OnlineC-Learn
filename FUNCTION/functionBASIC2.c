@@ -9,13 +9,11 @@ void div(int a, int b);
 // main function
 int main()
 {
-    int x,y;
-    printf("Enter two integer : ");
-    scanf("%d %d",&x, &y);
-    sum(x,y);
-    sub(x,y);
-    mul(x,y);
-    div(x,y);
+    
+    sum(2,4);
+    sub(2,3);
+    mul(1,1);
+    div(2,4);
 }
 
 // function defination
