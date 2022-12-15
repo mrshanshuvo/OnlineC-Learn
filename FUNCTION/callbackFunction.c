@@ -8,22 +8,22 @@ void display(void (*fptr)(int,int));
 
 void sum(int a,int b)
 {
-    printf("Sum : %d\n",a+b);
+    printf("Summation of %d and %d is : %d\n",a,b,a+b);
 }
 
 void sub(int a,int b)
 {
-    printf("Sub : %d\n",a-b);
+    printf("Substraction of %d and %d is : %d\n",a,b,a-b);
 }
 
 void mul(int a,int b)
 {
-    printf("Multiplication : %d\n",a*b);
+    printf("Multiplication of %d and %d is : %d\n",a,b,a*b);
 }
 
 void div(int a,int b)
 {
-    printf("Division : %d\n",a/b);
+    printf("Division of %d and %d is : %d\n",a,b,a/b);
 }
 
 void display(void (*fptr)(int,int))
