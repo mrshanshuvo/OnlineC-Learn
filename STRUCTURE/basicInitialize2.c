@@ -16,7 +16,7 @@ void main()
     for(i=0; i<3; i++)
     {
         printf("Enter the Info of %dth STUDENT :\n\n",i+1);
-        printf("Roll    Name    Marks\n");
+        printf("Roll  Name  Marks\n");
         scanf("%d %s %f", &s[i].roll,s[i].name,&s[i].marks);
         printf("\n");
     }
